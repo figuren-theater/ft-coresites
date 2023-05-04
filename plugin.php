@@ -8,9 +8,9 @@
  * @license           GPL-3.0-or-later
  *
  * @wordpress-plugin
- * Plugin Name:       figuren.theater | ft_coresites
+ * Plugin Name:       figuren.theater | Coresites
  * Plugin URI:        https://github.com/figuren-theater/ft-coresites
- * Description:       ... like the figuren.theater WordPress Multisite network.
+ * Description:       Functionality for all core-sites of the figuren.theater WordPress Multisite network.
  * Version:           1.0.0
  * Requires at least: 6.0
  * Requires PHP:      7.2

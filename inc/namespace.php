@@ -1,11 +1,11 @@
 <?php
 /**
- * Figuren_Theater QQQQQQQQ.
+ * Figuren_Theater ft_coresites.
  *
- * @package figuren-theater/qqqqqqqqqqqqq
+ * @package figuren-theater/ft-coresites
  */
 
-namespace Figuren_Theater\QQQQQQQQ;
+namespace Figuren_Theater\ft_coresites;
 
 use Altis;
 use function Altis\register_module;
@@ -17,16 +17,19 @@ use function Altis\register_module;
 function register() {
 
 	$default_settings = [
-		'enabled' => true, // needs to be set
+		'enabled'         => false, // needs to be set
+		'shortcodes'      => true,
+		'core-post-types' => ['PSEUDO_PT_level'],
+		'wporg-themes'    => false,
 	];
 	$options = [
 		'defaults' => $default_settings,
 	];
 
 	Altis\register_module(
-		'qqqqqqqqqqqqq',
+		'ft-coresites',
 		DIRECTORY,
-		'QQQQQQQQ',
+		'ft_coresites',
 		$options,
 		__NAMESPACE__ . '\\bootstrap'
 	);

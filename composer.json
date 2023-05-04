@@ -1,6 +1,6 @@
 {
 	"name": "figuren-theater/ft-coresites",
-	"description": "... like the figuren.theater WordPress Multisite network.",
+	"description": "Functionality for all core-sites of the figuren.theater WordPress Multisite network.",
     "homepage": "https://websites.fuer.figuren.theater",
     "type": "wordpress-muplugin",
     "keywords": ["wordpress", "wordpress-muplugin"],
@@ -24,7 +24,6 @@
     },
 	"autoload": {
 		"files": [
-			"inc/.../namespace.php",
 			"inc/namespace.php"
 		],
         "classmap": [
@@ -35,10 +34,6 @@
 		{
             "type": "git",
             "url": "https://github.com/figuren-theater/ft-options"
-        },
-        {
-            "type": "vcs",
-            "url": "https://github.com/..."
         },
 		{
 			"type": "composer",
