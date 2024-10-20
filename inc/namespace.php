@@ -17,7 +17,7 @@ use function Altis\register_module;
 function register() {
 
 	$default_settings = [
-		'enabled'         => false, // needs to be set
+		'enabled'         => false, // Needs to be set.
 		'shortcodes'      => true,
 		'core-post-types' => ['PSEUDO_PT_level'],
 		'wporg-themes'    => false,
@@ -37,8 +37,10 @@ function register() {
 
 /**
  * Bootstrap module, when enabled.
+ *
+ * @return void
  */
-function bootstrap() {
+function bootstrap() :void {
 
 	// Plugins
 	//...\bootstrap();
